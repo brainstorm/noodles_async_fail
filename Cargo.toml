@@ -1,0 +1,11 @@
+[package]
+name = "noodles_async_fail"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.9.0", features = ["full"] }
+noodles = { path = "../noodles/noodles", features = ["bam", "bcf", "bgzf", "cram", "csi", "sam", "tabix", "vcf"] }
+noodles-bgzf =  { path = "../noodles/noodles-bgzf", features = ['async'] }
+noodles-bam =   { path = "../noodles/noodles-bam", features = ['async'] }
+noodles-vcf =   { path = "../noodles/noodles-vcf", features = ['async'] }
