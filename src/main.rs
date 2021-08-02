@@ -1,7 +1,5 @@
 use tokio::fs::File;
 
-use noodles::sam;
-use noodles_bgzf::VirtualPosition;
 use noodles::bam::Record;
 
 #[tokio::main]

@@ -1,5 +1,7 @@
 # Why U not Send, Noodles?
 
+EDIT: Fixed [upstream in Noodles](https://github.com/zaeleus/noodles/issues/34).
+
 ```rust
 error: future cannot be sent between threads safely
    --> src/main.rs:8:3
