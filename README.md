@@ -1,3 +1,7 @@
+# VirtualPosition seeking different between Blocking vs Async
+
+Reusing this same repo for another issue: https://github.com/zaeleus/noodles/issues/35
+
 # Why U not Send, Noodles?
 
 EDIT: Fixed [upstream in Noodles](https://github.com/zaeleus/noodles/issues/34).
